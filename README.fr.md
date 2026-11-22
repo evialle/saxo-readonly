@@ -137,4 +137,4 @@ Installer le paquet Python sur la machine où l'agent exécute ses commandes, re
 
 Les tests utilisent des données fictives et des réponses réseau simulées. Ils couvrent les restrictions de lecture seule, OAuth, la pagination, le stockage, les alertes et la CLI. GitHub Actions exécute la CI du dépôt sans recevoir d'identifiants Saxo. Les tests hors ligne ne prouvent **pas** l'accès à un compte réel, les droits Saxo ni le succès complet de l'authentification de votre application. Voir [CONTRIBUTING.md](CONTRIBUTING.md).
 
-Licence [MIT](LICENSE). Les contributions et corrections de compatibilité Saxo sont bienvenues, avec un exemple SIM reproductible sans données personnelles.
+Licence [Apache 2.0](LICENSE). Les contributions et corrections de compatibilité Saxo sont bienvenues, avec un exemple SIM reproductible sans données personnelles.

@@ -137,4 +137,4 @@ The connector works without OpenClaw. To use it with an agent, install the Pytho
 
 Tests use synthetic data and mocked network responses. They cover read-only restrictions, OAuth, pagination, storage, alerts, and CLI behavior. GitHub Actions runs the repository's CI configuration; it does not receive Saxo credentials. Offline tests do **not** prove live account access, Saxo entitlements, or end-to-end OAuth success for your application. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
-Licensed under [MIT](LICENSE). Contributions are welcome, including corrections to Saxo compatibility supported by reproducible SIM evidence with all personal data removed.
+Licensed under [Apache 2.0](LICENSE). Contributions are welcome, including corrections to Saxo compatibility supported by reproducible SIM evidence with all personal data removed.

@@ -41,4 +41,4 @@ For security-sensitive reports, follow [SECURITY.md](SECURITY.md). Do not public
 
 ## License
 
-By submitting a contribution, you agree it may be distributed under this repository's [MIT license](LICENSE). Keep attribution for any reused code and describe its source and license in the pull request.
+By submitting a contribution, you agree it may be distributed under this repository's [Apache License 2.0](LICENSE). Keep attribution for any reused code and describe its source and license in the pull request.
