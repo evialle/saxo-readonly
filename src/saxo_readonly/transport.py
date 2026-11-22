@@ -59,7 +59,7 @@ def validate_request(method: str, url: str, data: bytes | None = None) -> None:
     if endpoint not in ENDPOINT_PARAMETERS:
         raise ReadOnlyViolation("Endpoint is outside the portfolio read-only allowlist.")
     try:
-        pairs = parse_qsl(parsed.query, keep_blank_values=True, strict_parsing=True)
+        pairs = parse_qsl(parsed.query, keep_blank_values=True, strict_parsing=True) if parsed.query else []
     except ValueError:
         raise ReadOnlyViolation("Invalid API query parameters.") from None
     params = dict(pairs)
